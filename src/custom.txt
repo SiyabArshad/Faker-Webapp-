@@ -1,0 +1,20 @@
+/*<div id="formmain">
+            {
+                category.map((catg)=>{
+                    return(
+                        <div id='catitem'>
+                            <h3>{catg}</h3>
+                            <select name={catg} fullWidth multiple id='selectoption' value={[]} onChange={chageevent} >
+                                {
+                                    Object.keys(options[catg]).map((name)=>{
+                                        return(
+                                            <option id='options'>{name}</option>
+                                        )
+                                    })
+                                }
+                            </select>
+                        </div>
+                    )
+                })
+            }
+            </div>*/

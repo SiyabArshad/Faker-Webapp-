@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+styling header component
+*/
+#navmain{
+
+    width: 100%;
+    height: auto;
+    background-color: rgba(10, 236, 168, 0.911);
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navtxt{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffff;
+}
+@media only screen and (max-width: 768px)
+{
+ #navtxt{
+     font-size: 1rem;
+ }
+ #maindiv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#submaindiv{
+    margin: 5px;
+}   
+}
+/*#formmain{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+#catitem{
+    height: 150px;
+    width: 250px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#catitem h3{
+    color: rgba(10, 236, 168, 0.911);
+    text-transform: capitalize;
+}
+
+#selectoption{
+    width: 150px;
+    height: 24px;
+    background-color: rgba(10, 236, 168, 1);
+    border-radius: 8px;
+    position: relative;
+    top: 50%;
+    border-style: none;
+    color: #ffff;
+    text-transform: capitalize;
+    position: relative;
+}
+#options{
+    color: #ffff;
+}
+*/
+#maindiv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#submaindiv{
+    margin: 10px;
+}
+#submaindiv:hover{
+    cursor: pointer;
+}
